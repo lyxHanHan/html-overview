@@ -26,20 +26,20 @@
         <label for="doneness">How do you want your patty cooked</label>
         <br>
         <!--说明：在此添加一个input for 'doneness'，type: range, default value: 3, min: 0, max: 5, step: 1  -->
-        <input type="range"  default value="3"   min="1" max="10">
+        <input type="range"  default value="3"   min="1"  name="Rare"  max="10">
     </section>
 
     <section class="toppings">
         <span>What toppings would you like?</span>
         <br>
         <!--说明：在此添加一个checkbox, name: topping, value: lettuce, id: lettuce -->
-
+        <input type="checkbox" name="topping" id="lettuce" value="lettuce">
         <!--说明：在此添加一个label for 'lettuce', content: Lettuce -->
-
+        <label for="lettuce">Onion</label>
         <!--说明：在此添加一个checkbox, name: topping, value: tomato, id: tomato -->
-
+        <input type="checkbox" name="topping" id="tomato" value="tomato">
         <!--说明：在此添加一个label for 'tomato', content: Tomato-->
-
+        <label for="onion">tomato</label>
         <input type="checkbox" name="topping" id="onion" value="onion">
         <label for="onion">Onion</label>
     </section>
