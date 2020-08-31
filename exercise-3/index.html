@@ -59,16 +59,24 @@
         <label for="bun">What type of bun would you like?</label>
         <br>
         <!--说明：在此添加一个select, name: bun, option list: sesame, potato, Salad-->
-
+        <select name="bun">
+            <option >sesame</option>
+            <option >potato</option>
+            <option >Salad</option>
+        </select>
     </section>
 
     <section class="sauce-selection">
         <label for="sauce">What type of sauce would you like?</label>
         <br>
         <input list="sauces" id="sauce" name="sauce">
-
         <!--说明：在此添加一个datalist, option list: ketchup, mayo, Other-->
-
+        <datalist id="sauces">
+            <option value="ketchup">
+            <option value="mayo">
+            <option value="Other">
+        </datalist>
+            
     </section>
 
     <section class="extra-info">
